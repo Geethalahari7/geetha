@@ -1,0 +1,6 @@
+n=input("enter any String")
+count=0
+for i in n:
+	print(i)
+	count+=1;
+print("The length of string:",count)
