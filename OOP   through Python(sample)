@@ -1,0 +1,13 @@
+class student:
+	branch="cse"
+	def stu_details(self,roll,name):
+		self.rollno=roll
+		self.na=name
+	def display(self):
+		print("Rollno:",self.rollno)
+		print("Name:",self.na)
+		print("Branch:",student.branch)
+obj=student()
+obj.stu_details("23PA1A05E9","Geetha")
+obj.display()
+	
