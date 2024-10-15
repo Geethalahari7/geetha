@@ -1,0 +1,8 @@
+class cons:
+	def __init__(self,r1,r2):
+		self.first=r1
+		self.second=r2
+	def display(self):
+			print(self.first+self.second)
+obj=cons(4,3)
+obj.display()
