@@ -1,0 +1,4 @@
+class const:
+	def __init__(self):
+		print("Hello,Welcome To OOP Through Python")
+obj=const()
